@@ -1,200 +1,69 @@
-<html lang="en">
+<!DOCTYPE html>
+
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <title>home page</title>
-    <link rel="stylesheet" type="text/css" href="./css/base.css">
-    <link rel="stylesheet" type="text/css" href="./css/index.css">
-    <script type="text/javascript" src="./js/jquery-3.3.1.js"></script>
-    <script type="text/javascript" src="./js/index.js"></script>
+  <title>Zimeng TANG's profile</title>
+  <meta name="description" content="This is Zimeng TANG">
+  <meta charset="UTF-8">
+  <script src="https://kit.fontawesome.com/c4cb21573f.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <!--快捷导航模块-->
-    <div class="shortcut">
-        <div class="w">
-            <div class="fl">
-                <ul>
-                    <li>WELCOME！&nbsp;</li>
-                    <li>
-                        <a href="login.html">登录 Log in</a>&nbsp;
-                        <a href="regist.html">注册 Register</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="fr">
-                <ul>
-                    <li><a href="javascript:void(0)" onclick="pleaseLogin()">我的 my order</a></li>
-                    <li></li>
-                    <li class="arrow-icon"><a href="javascript:void(0)" onclick="pleaseLogin()">购物车 shopping</a></li>
-                </ul>
-            </div>
-            <div class="fr">
-                <ul>
-                    <li><a href="#">我的 my order</a></li>
-                    <li></li>
-                    <li class="arrow-icon"><a href="#">购物车shopping</a></li>
-                </ul>
-                </c:if>
-            </div>
-        </div>
-    </div>
-    <!--导航模块-->
-    <div class="header w">
-        <div class="logo">
-            <h1>
-                <a title="网上商城">网上商城</a>
-            </h1>
-        </div>
-        <div class="search">
-            <input type="search" name="" id="searchContent" placeholder="语言开发">
-            <button type="button">搜索 search</button>
-        </div>
-        <div class="hotwords">
-            <a href="#">亿元优惠</a>
-            <a href="#">9.9元团购</a>
-            <a href="#">每满99减30</a>
-            <a href="#">办公用品</a>
-            <a href="#">电脑</a>
-            <a href="#">通信</a>
-        </div>
-    </div>
-    <!--main模块-->
-    <main class="w">
-        <!--nav导航模块-->
-        <div class="bar">
-            <nav>
-                <ul>
-                    <li><a href="#">家居日用</a></li>
-                    <li><a href="#">出行穿戴</a></li>
-                    <li><a href="#">电源配件</a></li>
-                    <li><a href="#">健康儿童</a></li>
-                    <li><a href="#">耳机音箱</a></li>
-                    <li><a href="#">生活箱包</a></li>
-                    <li><a href="#">美妆护肤</a></li>
-                </ul>
-            </nav>
-        </div>
-        <!--轮播图模块-->
-        <div class="bar banner">
-            <div class="banner_pic" id="banner_pic">
-                <div class="current"> <img src="./images/VCG211319252161(1).png" alt=""></div>
-                <div class="pic"> <img src="./images/VCG211284568870(1).png" alt="">
-                </div>
-                <div class="pic"> <img src="./images/VCG211300693856(1).png" alt="">
-                </div>
-                <div class="pic"> <img src="./images/VCG211285017151.jpg" alt=""></div>
-                <div class="pic"> <img src="./images/VCG211302226395.jpg" alt=""></div>
-            </div>
-            <ol id="button">
-                <li class="current"></li>
-                <li class="but"></li>
-                <li class="but"></li>
-                <li class="but"></li>
-                <li class="but"></li>
-            </ol>
-        </div>
-        <!--特价商品模块-->
-        <div class="bar right-img">
-            <div>
-                <img src="./images/rightImg.png">
-            </div>
-            <div>
-                <a href="#"> <img src="./images/特价1.jpg" alt=""></a>
-                <a href="#"> <img src="./images/特价2.jpg" alt=""></a>
-            </div>
+ <div class="container">
+  <div class="card-white" id="introduction">
+  <h1>Hii, This is Zimeng!😉</h1>
+  <img src="images/profile.jpg" class="img-circle" width="100px" alt="Zimeng TANG">
+  <p>
+    I am a year 1 student of ESSEC GBBA program. Find out more about me! 
+  </p>
+  </div>
 
-        </div>
-    </main>
-    <!--新品上市模块-->
-    <div class="new">
-        <ul>
-            <li>
-                新品<br>上市
-            </li>
-            <li>
-                <a href="javascript:void(0)"><img src="./images/新品上市1.jpg" alt=""></a>
-                <span class="money"><b>¥5999</b></span>
-                <span class="sc">200+人付款</span>
-                <div>
-                    <span class="by">包邮</span>
-                    <a href="#">【选送快充头/顺丰现货】Apple/苹果iPhone13 5G</a>
-                </div>
-            </li>
-            <li>
-                <a href="javascript:void(0)"><img src="./images/新品上市1.jpg" alt=""></a>
-                <span class="money"><b>¥5999</b></span>
-                <span class="sc">200+人付款</span>
-                <div>
-                    <span class="by">包邮</span>
-                    <a href="#">【选送快充头/顺丰现货】Apple/苹果iPhone13 5G</a>
-                </div>
-            </li>
-            <li>
-                <a href="javascript:void(0)"><img src="./images/新品上市1.jpg" alt=""></a>
-                <span class="money"><b>¥5999</b></span>
-                <span class="sc">200+人付款</span>
-                <div>
-                    <span class="by">包邮</span>
-                    <a href="#">【选送快充头/顺丰现货】Apple/苹果iPhone13 5G</a>
-                </div>
-            </li>
-            <li>
-                <a href="javascript:void(0)"><img src="./images/新品上市1.jpg" alt=""></a>
-                <span class="money"><b>¥5999</b></span>
-                <span class="sc">200+人付款</span>
-                <div>
-                    <span class="by">包邮</span>
-                    <a href="#">【选送快充头/顺丰现货】Apple/苹果iPhone13 5G</a>
-                </div>
-            </li>
-        </ul>
-    </div>
-    <!--畅销商品模块-->
-    <div class="new">
-        <ul>
-            <li>
-                畅销<br>商品
-            </li>
-            <li>
-                <a href="#"><img src="./images/商品.png" alt=""></a>
-                <span class="money"><b>¥199.00</b></span>
-                <span class="sc">1000+人付款</span>
-                <div>
-                    <span class="by">包邮</span>
-                    <a href="#">花西子花浅染化妆刷套装/化妆工具美妆用品全套初学</a>
-                </div>
-            </li>
-            <li>
-                <a href="#"><img src="./images/商品.png" alt=""></a>
-                <span class="money"><b>¥199.00</b></span>
-                <span class="sc">1000+人付款</span>
-                <div>
-                    <span class="by">包邮</span>
-                    <a href="#">花西子花浅染化妆刷套装/化妆工具美妆用品全套初学</a>
-                </div>
-            </li>
-            <li>
-                <a href="#"><img src="./images/商品.png" alt=""></a>
-                <span class="money"><b>¥199.00</b></span>
-                <span class="sc">1000+人付款</span>
-                <div>
-                    <span class="by">包邮</span>
-                    <a href="#">花西子花浅染化妆刷套装/化妆工具美妆用品全套初学</a>
-                </div>
-            </li>
-            <li>
-                <a href="#"><img src="./images/商品.png" alt=""></a>
-                <span class="money"><b>¥199.00</b></span>
-                <span class="sc">1000+人付款</span>
-                <div>
-                    <span class="by">包邮</span>
-                    <a href="#">花西子花浅染化妆刷套装/化妆工具美妆用品全套初学</a>
-                </div>
-            </li>
+  <div class="card-white">
+  <h2>Family🎾</h2>
+  <p>
+    I live with my parents in China. I really love them! We have dinner and do sports together everyday. 
+  </p>
+  </div>
 
-        </ul>
-    </div>
+  <div class="card-white">
+  <h2>Activities✏</h2>
+  <p>
+    In my spare time, I like to watch movies, reading books and painting. My favorite movie is Marvel series, and I love Chinese painting very much!
+  </p>
+  </div>
+
+  <div class="card-white">
+  <h2>Dream✨</h2>
+  <p>
+    I'm a business student, and I want to study Finance or Economics in the future, they are very interesting! My dream job is becoming a professor. 
+  </p>
+  </div>
+
+  <div class="card-white">
+  <h2>Follow me!</h2>
+  <ul class="list-inline">
+    <li>
+      <a href="https://www.facebook.com/">
+        <i class="fa-brands fa-facebook-square"></i>
+      </a>
+    </li>
+    <li>
+      <a href="https://twitter.com/">
+        <i class="fa-brands fa-twitter-square"></i>
+      </a>
+    </li>
+    <li>
+      <a href="https://www.instagram.com/">
+        <i class="fa-brands fa-instagram-square"></i>
+      </a>
+    </li>
+
+  </ul>
+ </div>
+
 </body>
 
-</html>
+
+</html> 
